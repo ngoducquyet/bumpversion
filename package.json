@@ -1,6 +1,6 @@
 {
   "name": "catalyst-inv-core-logic-service",
-  "version": "1.25.15",
+  "version": "1.25.16",
   "private": true,
   "description": "API for HotSchedule Inventory service",
   "keywords": [],
