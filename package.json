@@ -123,6 +123,6 @@
     "transpile": "rm -rf transpiledLib && babel lib --out-dir transpiledLib --ignore '**/*.spec.js'",
     "transpile-lib": "babel --no-babelrc --presets flow --plugins transform-es2015-modules-commonjs,transform-object-rest-spread lib --out-dir transpiledLib --ignore '**/*.spec.js'",
     "transpile-win": "del /f /s /q transpiledLib && babel lib --out-dir transpiledLib --ignore '**/*.spec.js'",
-    "sonar": "gulp sonar"
+    "sonar": "gulp sonar" test
   }
 }
